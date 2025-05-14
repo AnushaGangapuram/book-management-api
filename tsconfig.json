@@ -3,13 +3,13 @@
     "target": "es6",
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": ".",                       // Changed from "./src"
+    "rootDir": ".",                    // Keeps the root directory as the source
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["**/*.ts"],                // Changed from ["src/**/*"]
+  "include": ["**/*.ts"],                // Includes all .ts files in the root directory and subdirectories
   "exclude": ["node_modules", "dist"]
 }
